@@ -8,10 +8,10 @@ export default {
     Component: Page,
     props: args,
   }),
-  // parameters: {
-  //   // More on Story layout: https://storybook.js.org/docs/svelte/configure/story-layout
-  //   layout: 'fullscreen',
-  // },
+  parameters: {
+    // More on Story layout: https://storybook.js.org/docs/svelte/configure/story-layout
+    layout: 'fullscreen',
+  },
 };
 
 // More on interaction testing: https://storybook.js.org/docs/svelte/writing-tests/interaction-testing
