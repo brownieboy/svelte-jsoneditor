@@ -2,8 +2,8 @@ const path = require("path");
 
 const config = {
   "stories": [
-    "../src/**/*.stories.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx|svelte)"
+    "../src/stories/svelte/*.stories.mdx",
+    "../src/stories/svelte/*.stories.@(js|jsx|ts|tsx|svelte)"
   ],
   "addons": [
     "@storybook/addon-links",
